@@ -10,6 +10,9 @@ Abrir a aplicação
     ...                 deviceName=Emulator
     ...                 app=C:\\qaninja\\twp\\app\\backup\\twp.apk   
 
+Fechar aplicação
+    Close Application
+
 Acessar o menu principal
     Wait Until Page Contains    	    COMEÇAR
     Click Text                          COMEÇAR
@@ -25,5 +28,5 @@ Acessar a tela
     Wait Until Element Is Visible       id=io.qaninja.android.twp:id/toolbarTitle
     Element Text Should Be              id=io.qaninja.android.twp:id/toolbarTitle       ${NOME_TELA}
 
-Fechar aplicação
-    Close Application
+Acessar a tela de Radio Button
+
