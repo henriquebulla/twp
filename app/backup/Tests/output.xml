@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.5 on win32)" generated="20201112 10:02:05.763" rpa="false">
+<suite id="s1" name="Laco" source="C:\qaninja\twp\app\backup\Tests\laco.robot">
+<test id="s1-t1" name="novo formato do FOR de listas">
+<kw name="Criar cadastrado de produtos (FOR aninhado)">
+<kw name="${produto} IN [ baby look | camiseta | blusa ]" type="for">
+<kw name="${produto} = baby look" type="foritem">
+<kw name="Imprime tamanhos para o produto">
+<arguments>
+<arg>${produto}</arg>
+</arguments>
+<kw name="${tamanho} IN [ P | M | G ]" type="for">
+<kw name="${tamanho} = P" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Produto ${produto} - Tam: ${tamanho}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.797" level="INFO">Produto baby look - Tam: P</msg>
+<status status="PASS" starttime="20201112 10:02:05.796" endtime="20201112 10:02:05.797"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.796" endtime="20201112 10:02:05.797"></status>
+</kw>
+<kw name="${tamanho} = M" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Produto ${produto} - Tam: ${tamanho}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.797" level="INFO">Produto baby look - Tam: M</msg>
+<status status="PASS" starttime="20201112 10:02:05.797" endtime="20201112 10:02:05.797"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.797" endtime="20201112 10:02:05.797"></status>
+</kw>
+<kw name="${tamanho} = G" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Produto ${produto} - Tam: ${tamanho}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.798" level="INFO">Produto baby look - Tam: G</msg>
+<status status="PASS" starttime="20201112 10:02:05.797" endtime="20201112 10:02:05.798"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.797" endtime="20201112 10:02:05.798"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.796" endtime="20201112 10:02:05.798"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.796" endtime="20201112 10:02:05.798"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.795" endtime="20201112 10:02:05.798"></status>
+</kw>
+<kw name="${produto} = camiseta" type="foritem">
+<kw name="Imprime tamanhos para o produto">
+<arguments>
+<arg>${produto}</arg>
+</arguments>
+<kw name="${tamanho} IN [ P | M | G ]" type="for">
+<kw name="${tamanho} = P" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Produto ${produto} - Tam: ${tamanho}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.799" level="INFO">Produto camiseta - Tam: P</msg>
+<status status="PASS" starttime="20201112 10:02:05.799" endtime="20201112 10:02:05.799"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.799" endtime="20201112 10:02:05.799"></status>
+</kw>
+<kw name="${tamanho} = M" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Produto ${produto} - Tam: ${tamanho}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.799" level="INFO">Produto camiseta - Tam: M</msg>
+<status status="PASS" starttime="20201112 10:02:05.799" endtime="20201112 10:02:05.800"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.799" endtime="20201112 10:02:05.800"></status>
+</kw>
+<kw name="${tamanho} = G" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Produto ${produto} - Tam: ${tamanho}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.800" level="INFO">Produto camiseta - Tam: G</msg>
+<status status="PASS" starttime="20201112 10:02:05.800" endtime="20201112 10:02:05.800"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.800" endtime="20201112 10:02:05.800"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.798" endtime="20201112 10:02:05.800"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.798" endtime="20201112 10:02:05.800"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.798" endtime="20201112 10:02:05.800"></status>
+</kw>
+<kw name="${produto} = blusa" type="foritem">
+<kw name="Imprime tamanhos para o produto">
+<arguments>
+<arg>${produto}</arg>
+</arguments>
+<kw name="${tamanho} IN [ P | M | G ]" type="for">
+<kw name="${tamanho} = P" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Produto ${produto} - Tam: ${tamanho}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.801" level="INFO">Produto blusa - Tam: P</msg>
+<status status="PASS" starttime="20201112 10:02:05.801" endtime="20201112 10:02:05.801"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.801" endtime="20201112 10:02:05.801"></status>
+</kw>
+<kw name="${tamanho} = M" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Produto ${produto} - Tam: ${tamanho}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.802" level="INFO">Produto blusa - Tam: M</msg>
+<status status="PASS" starttime="20201112 10:02:05.802" endtime="20201112 10:02:05.802"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.802" endtime="20201112 10:02:05.802"></status>
+</kw>
+<kw name="${tamanho} = G" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Produto ${produto} - Tam: ${tamanho}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.802" level="INFO">Produto blusa - Tam: G</msg>
+<status status="PASS" starttime="20201112 10:02:05.802" endtime="20201112 10:02:05.802"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.802" endtime="20201112 10:02:05.802"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.801" endtime="20201112 10:02:05.803"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.801" endtime="20201112 10:02:05.803"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.800" endtime="20201112 10:02:05.803"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.795" endtime="20201112 10:02:05.803"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.795" endtime="20201112 10:02:05.803"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.794" endtime="20201112 10:02:05.803" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Criar dicionario">
+<kw name="percorrer lista de linguas">
+<kw name="${index} | ${english} | ${finnish} | ${portugues} IN [ 1 | cat | kissa | gato | 2 | dog | koira | cachorro | 3 | horse | hevonem | cavalo ]" type="for">
+<kw name="${index} = 1, ${english} = cat, ${finnish} = kissa, ${portugues} = gato" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Animal ${index}:\nEm inglês: ${english} \nEm finlandês: ${finnish}\nEm portugues: ${portugues}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.805" level="INFO">Animal 1:
+Em inglês: cat 
+Em finlandês: kissa
+Em portugues: gato</msg>
+<status status="PASS" starttime="20201112 10:02:05.805" endtime="20201112 10:02:05.805"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.805" endtime="20201112 10:02:05.805"></status>
+</kw>
+<kw name="${index} = 2, ${english} = dog, ${finnish} = koira, ${portugues} = cachorro" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Animal ${index}:\nEm inglês: ${english} \nEm finlandês: ${finnish}\nEm portugues: ${portugues}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.806" level="INFO">Animal 2:
+Em inglês: dog 
+Em finlandês: koira
+Em portugues: cachorro</msg>
+<status status="PASS" starttime="20201112 10:02:05.806" endtime="20201112 10:02:05.806"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.806" endtime="20201112 10:02:05.806"></status>
+</kw>
+<kw name="${index} = 3, ${english} = horse, ${finnish} = hevonem, ${portugues} = cavalo" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Animal ${index}:\nEm inglês: ${english} \nEm finlandês: ${finnish}\nEm portugues: ${portugues}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.807" level="INFO">Animal 3:
+Em inglês: horse 
+Em finlandês: hevonem
+Em portugues: cavalo</msg>
+<status status="PASS" starttime="20201112 10:02:05.806" endtime="20201112 10:02:05.807"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.806" endtime="20201112 10:02:05.807"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.804" endtime="20201112 10:02:05.807"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.804" endtime="20201112 10:02:05.807"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.804" endtime="20201112 10:02:05.808" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Listar tamanhos">
+<kw name="percorrer lista de tamanho">
+<kw name="${index} | ${item} IN ENUMERATE [ P | M | G | GG | XG | XXG ]" type="for">
+<kw name="${index} = 0, ${item} = P" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Item da lista: ${item} - Posição do item na lista: ${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.810" level="INFO">Item da lista: P - Posição do item na lista: 0</msg>
+<status status="PASS" starttime="20201112 10:02:05.809" endtime="20201112 10:02:05.810"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.809" endtime="20201112 10:02:05.810"></status>
+</kw>
+<kw name="${index} = 1, ${item} = M" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Item da lista: ${item} - Posição do item na lista: ${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.810" level="INFO">Item da lista: M - Posição do item na lista: 1</msg>
+<status status="PASS" starttime="20201112 10:02:05.810" endtime="20201112 10:02:05.810"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.810" endtime="20201112 10:02:05.810"></status>
+</kw>
+<kw name="${index} = 2, ${item} = G" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Item da lista: ${item} - Posição do item na lista: ${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.811" level="INFO">Item da lista: G - Posição do item na lista: 2</msg>
+<status status="PASS" starttime="20201112 10:02:05.810" endtime="20201112 10:02:05.811"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.810" endtime="20201112 10:02:05.811"></status>
+</kw>
+<kw name="${index} = 3, ${item} = GG" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Item da lista: ${item} - Posição do item na lista: ${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.811" level="INFO">Item da lista: GG - Posição do item na lista: 3</msg>
+<status status="PASS" starttime="20201112 10:02:05.811" endtime="20201112 10:02:05.811"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.811" endtime="20201112 10:02:05.811"></status>
+</kw>
+<kw name="${index} = 4, ${item} = XG" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Item da lista: ${item} - Posição do item na lista: ${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.812" level="INFO">Item da lista: XG - Posição do item na lista: 4</msg>
+<status status="PASS" starttime="20201112 10:02:05.812" endtime="20201112 10:02:05.812"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.811" endtime="20201112 10:02:05.812"></status>
+</kw>
+<kw name="${index} = 5, ${item} = XXG" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Item da lista: ${item} - Posição do item na lista: ${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.812" level="INFO">Item da lista: XXG - Posição do item na lista: 5</msg>
+<status status="PASS" starttime="20201112 10:02:05.812" endtime="20201112 10:02:05.812"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.812" endtime="20201112 10:02:05.812"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.809" endtime="20201112 10:02:05.813"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.809" endtime="20201112 10:02:05.813"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.808" endtime="20201112 10:02:05.813" critical="yes"></status>
+</test>
+<test id="s1-t4" name="Testes mais opções de for IN RANGE">
+<kw name="Tradicional">
+<doc>Percorre de 1 até 10</doc>
+<kw name="${index} IN RANGE [ 1 | 11 ]" type="for">
+<kw name="${index} = 1" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.815" level="INFO">1</msg>
+<status status="PASS" starttime="20201112 10:02:05.815" endtime="20201112 10:02:05.815"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.815" endtime="20201112 10:02:05.815"></status>
+</kw>
+<kw name="${index} = 2" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.816" level="INFO">2</msg>
+<status status="PASS" starttime="20201112 10:02:05.815" endtime="20201112 10:02:05.816"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.815" endtime="20201112 10:02:05.816"></status>
+</kw>
+<kw name="${index} = 3" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.816" level="INFO">3</msg>
+<status status="PASS" starttime="20201112 10:02:05.816" endtime="20201112 10:02:05.817"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.816" endtime="20201112 10:02:05.817"></status>
+</kw>
+<kw name="${index} = 4" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.817" level="INFO">4</msg>
+<status status="PASS" starttime="20201112 10:02:05.817" endtime="20201112 10:02:05.817"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.817" endtime="20201112 10:02:05.817"></status>
+</kw>
+<kw name="${index} = 5" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.818" level="INFO">5</msg>
+<status status="PASS" starttime="20201112 10:02:05.817" endtime="20201112 10:02:05.818"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.817" endtime="20201112 10:02:05.818"></status>
+</kw>
+<kw name="${index} = 6" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.818" level="INFO">6</msg>
+<status status="PASS" starttime="20201112 10:02:05.818" endtime="20201112 10:02:05.818"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.818" endtime="20201112 10:02:05.818"></status>
+</kw>
+<kw name="${index} = 7" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.819" level="INFO">7</msg>
+<status status="PASS" starttime="20201112 10:02:05.818" endtime="20201112 10:02:05.819"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.818" endtime="20201112 10:02:05.819"></status>
+</kw>
+<kw name="${index} = 8" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.819" level="INFO">8</msg>
+<status status="PASS" starttime="20201112 10:02:05.819" endtime="20201112 10:02:05.820"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.819" endtime="20201112 10:02:05.820"></status>
+</kw>
+<kw name="${index} = 9" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.820" level="INFO">9</msg>
+<status status="PASS" starttime="20201112 10:02:05.820" endtime="20201112 10:02:05.820"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.820" endtime="20201112 10:02:05.820"></status>
+</kw>
+<kw name="${index} = 10" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.821" level="INFO">10</msg>
+<status status="PASS" starttime="20201112 10:02:05.820" endtime="20201112 10:02:05.821"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.820" endtime="20201112 10:02:05.821"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.815" endtime="20201112 10:02:05.821"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.814" endtime="20201112 10:02:05.821"></status>
+</kw>
+<kw name="Apenas quantidade de laços informada (limite superior)">
+<doc>Percorre de 0 até 9</doc>
+<kw name="${index} IN RANGE [ 10 ]" type="for">
+<kw name="${index} = 0" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.823" level="INFO">0</msg>
+<status status="PASS" starttime="20201112 10:02:05.823" endtime="20201112 10:02:05.823"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.822" endtime="20201112 10:02:05.823"></status>
+</kw>
+<kw name="${index} = 1" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.823" level="INFO">1</msg>
+<status status="PASS" starttime="20201112 10:02:05.823" endtime="20201112 10:02:05.823"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.823" endtime="20201112 10:02:05.824"></status>
+</kw>
+<kw name="${index} = 2" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.824" level="INFO">2</msg>
+<status status="PASS" starttime="20201112 10:02:05.824" endtime="20201112 10:02:05.824"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.824" endtime="20201112 10:02:05.824"></status>
+</kw>
+<kw name="${index} = 3" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.824" level="INFO">3</msg>
+<status status="PASS" starttime="20201112 10:02:05.824" endtime="20201112 10:02:05.824"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.824" endtime="20201112 10:02:05.824"></status>
+</kw>
+<kw name="${index} = 4" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.825" level="INFO">4</msg>
+<status status="PASS" starttime="20201112 10:02:05.825" endtime="20201112 10:02:05.825"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.825" endtime="20201112 10:02:05.825"></status>
+</kw>
+<kw name="${index} = 5" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.825" level="INFO">5</msg>
+<status status="PASS" starttime="20201112 10:02:05.825" endtime="20201112 10:02:05.825"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.825" endtime="20201112 10:02:05.825"></status>
+</kw>
+<kw name="${index} = 6" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.826" level="INFO">6</msg>
+<status status="PASS" starttime="20201112 10:02:05.826" endtime="20201112 10:02:05.826"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.825" endtime="20201112 10:02:05.826"></status>
+</kw>
+<kw name="${index} = 7" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.826" level="INFO">7</msg>
+<status status="PASS" starttime="20201112 10:02:05.826" endtime="20201112 10:02:05.826"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.826" endtime="20201112 10:02:05.826"></status>
+</kw>
+<kw name="${index} = 8" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.827" level="INFO">8</msg>
+<status status="PASS" starttime="20201112 10:02:05.827" endtime="20201112 10:02:05.827"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.826" endtime="20201112 10:02:05.827"></status>
+</kw>
+<kw name="${index} = 9" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.827" level="INFO">9</msg>
+<status status="PASS" starttime="20201112 10:02:05.827" endtime="20201112 10:02:05.827"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.827" endtime="20201112 10:02:05.827"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.822" endtime="20201112 10:02:05.827"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.822" endtime="20201112 10:02:05.827"></status>
+</kw>
+<kw name="Aritimético">
+<doc>Percorre de 0 até 5</doc>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${5}</arg>
+</arguments>
+<assign>
+<var>${var}</var>
+</assign>
+<msg timestamp="20201112 10:02:05.829" level="INFO">${var} = 5</msg>
+<status status="PASS" starttime="20201112 10:02:05.828" endtime="20201112 10:02:05.829"></status>
+</kw>
+<kw name="${index} IN RANGE [ ${var} + 1 ]" type="for">
+<kw name="${index} = 0" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.829" level="INFO">0</msg>
+<status status="PASS" starttime="20201112 10:02:05.829" endtime="20201112 10:02:05.829"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.829" endtime="20201112 10:02:05.829"></status>
+</kw>
+<kw name="${index} = 1" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.830" level="INFO">1</msg>
+<status status="PASS" starttime="20201112 10:02:05.830" endtime="20201112 10:02:05.830"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.829" endtime="20201112 10:02:05.830"></status>
+</kw>
+<kw name="${index} = 2" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.830" level="INFO">2</msg>
+<status status="PASS" starttime="20201112 10:02:05.830" endtime="20201112 10:02:05.831"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.830" endtime="20201112 10:02:05.831"></status>
+</kw>
+<kw name="${index} = 3" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.832" level="INFO">3</msg>
+<status status="PASS" starttime="20201112 10:02:05.831" endtime="20201112 10:02:05.832"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.831" endtime="20201112 10:02:05.832"></status>
+</kw>
+<kw name="${index} = 4" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.832" level="INFO">4</msg>
+<status status="PASS" starttime="20201112 10:02:05.832" endtime="20201112 10:02:05.832"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.832" endtime="20201112 10:02:05.832"></status>
+</kw>
+<kw name="${index} = 5" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.833" level="INFO">5</msg>
+<status status="PASS" starttime="20201112 10:02:05.832" endtime="20201112 10:02:05.833"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.832" endtime="20201112 10:02:05.833"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.829" endtime="20201112 10:02:05.833"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.828" endtime="20201112 10:02:05.833"></status>
+</kw>
+<kw name="Intervalos especificos">
+<doc>Percorre de 0 até 30, pulando de 5 em 5</doc>
+<kw name="${index} IN RANGE [ 0 | 31 | 5 ]" type="for">
+<kw name="${index} = 0" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.834" level="INFO">0</msg>
+<status status="PASS" starttime="20201112 10:02:05.834" endtime="20201112 10:02:05.834"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.834" endtime="20201112 10:02:05.834"></status>
+</kw>
+<kw name="${index} = 5" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.834" level="INFO">5</msg>
+<status status="PASS" starttime="20201112 10:02:05.834" endtime="20201112 10:02:05.834"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.834" endtime="20201112 10:02:05.834"></status>
+</kw>
+<kw name="${index} = 10" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.835" level="INFO">10</msg>
+<status status="PASS" starttime="20201112 10:02:05.835" endtime="20201112 10:02:05.835"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.834" endtime="20201112 10:02:05.835"></status>
+</kw>
+<kw name="${index} = 15" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.835" level="INFO">15</msg>
+<status status="PASS" starttime="20201112 10:02:05.835" endtime="20201112 10:02:05.835"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.835" endtime="20201112 10:02:05.835"></status>
+</kw>
+<kw name="${index} = 20" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.836" level="INFO">20</msg>
+<status status="PASS" starttime="20201112 10:02:05.836" endtime="20201112 10:02:05.836"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.835" endtime="20201112 10:02:05.836"></status>
+</kw>
+<kw name="${index} = 25" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.836" level="INFO">25</msg>
+<status status="PASS" starttime="20201112 10:02:05.836" endtime="20201112 10:02:05.836"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.836" endtime="20201112 10:02:05.836"></status>
+</kw>
+<kw name="${index} = 30" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${index}</arg>
+</arguments>
+<msg timestamp="20201112 10:02:05.837" level="INFO">30</msg>
+<status status="PASS" starttime="20201112 10:02:05.836" endtime="20201112 10:02:05.837"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.836" endtime="20201112 10:02:05.837"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.833" endtime="20201112 10:02:05.837"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.833" endtime="20201112 10:02:05.837"></status>
+</kw>
+<status status="PASS" starttime="20201112 10:02:05.814" endtime="20201112 10:02:05.837" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20201112 10:02:05.765" endtime="20201112 10:02:05.838"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0">Critical Tests</stat>
+<stat pass="4" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="4" fail="0" id="s1" name="Laco">Laco</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
